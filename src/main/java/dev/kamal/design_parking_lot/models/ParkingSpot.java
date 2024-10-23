@@ -12,4 +12,11 @@ public class ParkingSpot extends BaseModel{
     private ParkingSpotStatus status;
     private List<VehicleType> supportedVehicleTypes;
     private Long parkingFloorId;
+
+    public String toString() {
+        return "Spot Number: " + spotNumber +  "\n" +
+                "Parking Floor Number: " + parkingFloorId + "\n" +
+                "Status: " + status;
+    }
+
 }

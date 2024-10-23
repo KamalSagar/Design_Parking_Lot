@@ -4,5 +4,6 @@ public enum FeeCalculationStrategyType {
     HOURLY,
     DAILY,
     WEEKEND,
-    SPECIAL
+    SPECIAL,
+    WEEKDAY
 }

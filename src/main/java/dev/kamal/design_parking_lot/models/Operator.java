@@ -10,4 +10,8 @@ public class Operator extends BaseModel{
     private String name;
     private int employeeId;
 
+    public String toString() {
+        return name;
+    }
+
 }

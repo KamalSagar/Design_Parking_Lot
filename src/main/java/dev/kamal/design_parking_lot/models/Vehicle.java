@@ -9,4 +9,8 @@ public class Vehicle extends BaseModel{
     private String registrationNumber;
     private String ownerName;
     private VehicleType vehicleType;
+
+    public String toString() {
+        return registrationNumber;
+    }
 }

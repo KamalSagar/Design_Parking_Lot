@@ -9,6 +9,13 @@ import java.util.List;
 @Setter
 public class ParkingFloor extends BaseModel{
     private int floorNumber;
-    private ParkingFloorStatus status;
+    private ParkingFloorStatus parkingFloorStatus;
     private List<ParkingSpot> parkingSpots;
+
+    public String toString() {
+        return "ParkingFloor{" +
+                "floorId=" + this.getId() +
+                ", floorNumber=" + floorNumber +
+                '}';
+    }
 }

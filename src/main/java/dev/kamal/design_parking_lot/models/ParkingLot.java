@@ -9,9 +9,8 @@ import java.util.List;
 @Setter
 public class ParkingLot extends BaseModel{
     private String name;
-    private String address;
     private List<ParkingFloor> parkingFloors;
-    private ParkingLotStatus status;
+    private ParkingLotStatus parkingLotStatus;
     private List<Gate> gates;
     private List<VehicleType> supportedVehicleTypes;
     private SpotAssignmentStrategyType spotAssignmentStrategyType;
